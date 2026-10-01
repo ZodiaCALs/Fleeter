@@ -1,0 +1,19 @@
+name = "fleeter"
+main = "src/worker.js"
+compatibility_date = "2025-09-01"
+
+# The page itself (index.html, app.js, icons) is served straight from /public.
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# Morning edition: collected in four parts from 05:30 UTC (06:30 in London during summer time).
+# Change the times here and in CRONS at the top of src/worker.js together.
+[triggers]
+crons = ["30 5 * * *", "33 5 * * *", "36 5 * * *", "39 5 * * *"]
+
+# Stores the morning edition. Create it with:  npx wrangler kv namespace create FLEETER_KV
+# then paste the id it prints below.
+[[kv_namespaces]]
+binding = "FLEETER_KV"
+id = "PASTE_YOUR_KV_ID_HERE"

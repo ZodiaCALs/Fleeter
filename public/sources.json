@@ -1,0 +1,1397 @@
+{
+ "_readme": "Fleeter sources. Edit, then redeploy (web) or rebuild (app). See README.md for each field.",
+ "sources": [
+  {
+   "id": "gematsu",
+   "name": "Gematsu",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://www.gematsu.com/feed",
+   "sites": [
+    "gematsu.com"
+   ]
+  },
+  {
+   "id": "gamedev",
+   "name": "Game Developer",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://www.gamedeveloper.com/rss.xml",
+   "sites": [
+    "gamedeveloper.com"
+   ]
+  },
+  {
+   "id": "gibiz",
+   "name": "GamesIndustry.biz",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://www.gamesindustry.biz/feed",
+   "sites": [
+    "gamesindustry.biz"
+   ]
+  },
+  {
+   "id": "vgc",
+   "name": "VGC",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://www.videogameschronicle.com/feed/",
+   "sites": [
+    "videogameschronicle.com"
+   ]
+  },
+  {
+   "id": "eurogamer",
+   "name": "Eurogamer",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://www.eurogamer.net/feed",
+   "sites": [
+    "eurogamer.net"
+   ]
+  },
+  {
+   "id": "rps",
+   "name": "Rock Paper Shotgun",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://www.rockpapershotgun.com/feed",
+   "sites": [
+    "rockpapershotgun.com"
+   ]
+  },
+  {
+   "id": "pcgamer",
+   "name": "PC Gamer",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://www.pcgamer.com/rss/",
+   "sites": [
+    "pcgamer.com"
+   ]
+  },
+  {
+   "id": "polygon",
+   "name": "Polygon",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://www.polygon.com/rss/index.xml",
+   "sites": [
+    "polygon.com"
+   ]
+  },
+  {
+   "id": "nlife",
+   "name": "Nintendo Life",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://www.nintendolife.com/feeds/latest",
+   "sites": [
+    "nintendolife.com"
+   ]
+  },
+  {
+   "id": "pushsquare",
+   "name": "Push Square",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://www.pushsquare.com/feeds/latest",
+   "sites": [
+    "pushsquare.com"
+   ]
+  },
+  {
+   "id": "siliconera",
+   "name": "Siliconera",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://www.siliconera.com/feed/",
+   "sites": [
+    "siliconera.com"
+   ]
+  },
+  {
+   "id": "automaton",
+   "name": "Automaton",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://automaton-media.com/en/feed/",
+   "sites": [
+    "automaton-media.com"
+   ]
+  },
+  {
+   "id": "psblog",
+   "name": "PlayStation Blog",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://blog.playstation.com/feed/",
+   "sites": [
+    "playstation.com"
+   ]
+  },
+  {
+   "id": "xboxwire",
+   "name": "Xbox Wire",
+   "lang": "en",
+   "cat": "games",
+   "kind": "rss",
+   "url": "https://news.xbox.com/en-us/feed/",
+   "sites": [
+    "xbox.com"
+   ]
+  },
+  {
+   "id": "guardian-epl",
+   "name": "The Guardian",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.theguardian.com/football/premierleague/rss",
+   "sites": [
+    "theguardian.com"
+   ],
+   "sport": "football",
+   "league": "epl"
+  },
+  {
+   "id": "guardian-laliga",
+   "name": "The Guardian",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.theguardian.com/football/laligafootball/rss",
+   "sites": [
+    "theguardian.com"
+   ],
+   "sport": "football",
+   "league": "laliga"
+  },
+  {
+   "id": "guardian-seriea",
+   "name": "The Guardian",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.theguardian.com/football/serieafootball/rss",
+   "sites": [
+    "theguardian.com"
+   ],
+   "sport": "football",
+   "league": "seriea"
+  },
+  {
+   "id": "guardian-bundesliga",
+   "name": "The Guardian",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.theguardian.com/football/bundesligafootball/rss",
+   "sites": [
+    "theguardian.com"
+   ],
+   "sport": "football",
+   "league": "bundesliga"
+  },
+  {
+   "id": "guardian-ligue1",
+   "name": "The Guardian",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.theguardian.com/football/ligue1football/rss",
+   "sites": [
+    "theguardian.com"
+   ],
+   "sport": "football",
+   "league": "ligue1"
+  },
+  {
+   "id": "guardian-ucl",
+   "name": "The Guardian",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.theguardian.com/football/championsleague/rss",
+   "sites": [
+    "theguardian.com"
+   ],
+   "sport": "football",
+   "league": "ucl"
+  },
+  {
+   "id": "bbcfootball",
+   "name": "BBC Sport",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+   "sites": [
+    "bbc.co.uk",
+    "bbc.com"
+   ],
+   "sport": "football"
+  },
+  {
+   "id": "bbc-epl",
+   "name": "BBC Sport",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://feeds.bbci.co.uk/sport/football/premier-league/rss.xml",
+   "sites": [
+    "bbc.co.uk",
+    "bbc.com"
+   ],
+   "sport": "football",
+   "league": "epl"
+  },
+  {
+   "id": "bbc-ucl",
+   "name": "BBC Sport",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://feeds.bbci.co.uk/sport/football/champions-league/rss.xml",
+   "sites": [
+    "bbc.co.uk",
+    "bbc.com"
+   ],
+   "sport": "football",
+   "league": "ucl"
+  },
+  {
+   "id": "espnfc",
+   "name": "ESPN",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.espn.com/espn/rss/soccer/news",
+   "sites": [
+    "espn.com"
+   ],
+   "sport": "football"
+  },
+  {
+   "id": "skyfootball",
+   "name": "Sky Sports",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.skysports.com/rss/12040",
+   "sites": [
+    "skysports.com"
+   ],
+   "sport": "football"
+  },
+  {
+   "id": "bbc-tennis",
+   "name": "BBC Sport",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://feeds.bbci.co.uk/sport/tennis/rss.xml",
+   "sites": [
+    "bbc.co.uk",
+    "bbc.com"
+   ],
+   "sport": "tennis"
+  },
+  {
+   "id": "guardian-tennis",
+   "name": "The Guardian",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.theguardian.com/sport/tennis/rss",
+   "sites": [
+    "theguardian.com"
+   ],
+   "sport": "tennis"
+  },
+  {
+   "id": "espn-tennis",
+   "name": "ESPN",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.espn.com/espn/rss/tennis/news",
+   "sites": [
+    "espn.com"
+   ],
+   "sport": "tennis"
+  },
+  {
+   "id": "bbc-swimming",
+   "name": "BBC Sport",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://feeds.bbci.co.uk/sport/swimming/rss.xml",
+   "sites": [
+    "bbc.co.uk",
+    "bbc.com"
+   ],
+   "sport": "swimming"
+  },
+  {
+   "id": "guardian-swimming",
+   "name": "The Guardian",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.theguardian.com/sport/swimming/rss",
+   "sites": [
+    "theguardian.com"
+   ],
+   "sport": "swimming"
+  },
+  {
+   "id": "swimswam",
+   "name": "SwimSwam",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://swimswam.com/feed/",
+   "sites": [
+    "swimswam.com"
+   ],
+   "sport": "swimming"
+  },
+  {
+   "id": "swimworld",
+   "name": "Swimming World",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.swimmingworldmagazine.com/news/feed/",
+   "sites": [
+    "swimmingworldmagazine.com"
+   ],
+   "sport": "swimming"
+  },
+  {
+   "id": "guardian-tt",
+   "name": "The Guardian",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.theguardian.com/sport/table-tennis/rss",
+   "sites": [
+    "theguardian.com"
+   ],
+   "sport": "tabletennis"
+  },
+  {
+   "id": "ittf",
+   "name": "ITTF",
+   "lang": "en",
+   "cat": "sport",
+   "kind": "rss",
+   "url": "https://www.ittf.com/feed/",
+   "sites": [
+    "ittf.com"
+   ],
+   "sport": "tabletennis"
+  },
+  {
+   "id": "netease-sports",
+   "name": "网易体育 NetEase Sports",
+   "lang": "zh",
+   "cat": "sport",
+   "kind": "netease-list",
+   "channel": "T1348649079062",
+   "sites": [
+    "163.com"
+   ]
+  },
+  {
+   "id": "bili-sports",
+   "name": "哔哩哔哩 运动区 Bilibili Sports",
+   "lang": "zh",
+   "cat": "sport",
+   "kind": "bilibili-rank",
+   "rid": 234,
+   "sites": [
+    "bilibili.com"
+   ]
+  },
+  {
+   "id": "ann",
+   "name": "Anime News Network",
+   "lang": "en",
+   "cat": "anime",
+   "kind": "rss",
+   "url": "https://www.animenewsnetwork.com/all/rss.xml?ann-edition=w",
+   "sites": [
+    "animenewsnetwork.com"
+   ]
+  },
+  {
+   "id": "animecorner",
+   "name": "Anime Corner",
+   "lang": "en",
+   "cat": "anime",
+   "kind": "rss",
+   "url": "https://animecorner.me/feed/",
+   "sites": [
+    "animecorner.me"
+   ]
+  },
+  {
+   "id": "crunchyroll",
+   "name": "Crunchyroll News",
+   "lang": "en",
+   "cat": "anime",
+   "kind": "rss",
+   "url": "https://cr-news-api-service.prd.crunchyrollsvc.com/v1/en-US/rss",
+   "sites": [
+    "crunchyroll.com"
+   ]
+  },
+  {
+   "id": "bili-anime",
+   "name": "哔哩哔哩 动画区 Bilibili Anime",
+   "lang": "zh",
+   "cat": "anime",
+   "kind": "bilibili-rank",
+   "rid": 1,
+   "sites": [
+    "bilibili.com"
+   ]
+  },
+  {
+   "id": "pitchfork",
+   "name": "Pitchfork",
+   "lang": "en",
+   "cat": "music",
+   "kind": "rss",
+   "url": "https://pitchfork.com/feed/feed-news/rss",
+   "sites": [
+    "pitchfork.com"
+   ]
+  },
+  {
+   "id": "nme",
+   "name": "NME",
+   "lang": "en",
+   "cat": "music",
+   "kind": "rss",
+   "url": "https://www.nme.com/news/music/feed",
+   "sites": [
+    "nme.com"
+   ]
+  },
+  {
+   "id": "billboard",
+   "name": "Billboard",
+   "lang": "en",
+   "cat": "music",
+   "kind": "rss",
+   "url": "https://www.billboard.com/feed/",
+   "sites": [
+    "billboard.com"
+   ]
+  },
+  {
+   "id": "consequence",
+   "name": "Consequence",
+   "lang": "en",
+   "cat": "music",
+   "kind": "rss",
+   "url": "https://consequence.net/feed/",
+   "sites": [
+    "consequence.net"
+   ]
+  },
+  {
+   "id": "bili-music",
+   "name": "哔哩哔哩 音乐区 Bilibili Music",
+   "lang": "zh",
+   "cat": "music",
+   "kind": "bilibili-rank",
+   "rid": 3,
+   "sites": [
+    "bilibili.com"
+   ]
+  },
+  {
+   "id": "bbcworld",
+   "name": "BBC News",
+   "lang": "en",
+   "cat": "headlines",
+   "kind": "rss",
+   "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+   "sites": [
+    "bbc.co.uk",
+    "bbc.com"
+   ]
+  },
+  {
+   "id": "bbcuk",
+   "name": "BBC News UK",
+   "lang": "en",
+   "cat": "headlines",
+   "kind": "rss",
+   "url": "https://feeds.bbci.co.uk/news/uk/rss.xml",
+   "sites": [
+    "bbc.co.uk",
+    "bbc.com"
+   ]
+  },
+  {
+   "id": "guardianw",
+   "name": "The Guardian",
+   "lang": "en",
+   "cat": "headlines",
+   "kind": "rss",
+   "url": "https://www.theguardian.com/world/rss",
+   "sites": [
+    "theguardian.com"
+   ]
+  },
+  {
+   "id": "npr",
+   "name": "NPR",
+   "lang": "en",
+   "cat": "headlines",
+   "kind": "rss",
+   "url": "https://feeds.npr.org/1001/rss.xml",
+   "sites": [
+    "npr.org"
+   ]
+  },
+  {
+   "id": "aljazeera",
+   "name": "Al Jazeera",
+   "lang": "en",
+   "cat": "headlines",
+   "kind": "rss",
+   "url": "https://www.aljazeera.com/xml/rss/all.xml",
+   "sites": [
+    "aljazeera.com"
+   ]
+  },
+  {
+   "id": "tencent",
+   "name": "腾讯新闻 Tencent News",
+   "lang": "zh",
+   "cat": "headlines",
+   "kind": "tencent",
+   "channel": "24hours",
+   "sites": [
+    "qq.com"
+   ]
+  },
+  {
+   "id": "netease-top",
+   "name": "网易新闻 NetEase News",
+   "lang": "zh",
+   "cat": "headlines",
+   "kind": "netease-jsonp",
+   "url": "https://news.163.com/special/cm_yaowen20200213/?callback=data_callback",
+   "sites": [
+    "163.com"
+   ]
+  },
+  {
+   "id": "netease-headline",
+   "name": "网易新闻 头条 NetEase Headlines",
+   "lang": "zh",
+   "cat": "headlines",
+   "kind": "netease-list",
+   "channel": "T1348647853363",
+   "headline": true,
+   "sites": [
+    "163.com"
+   ]
+  },
+  {
+   "id": "verge",
+   "name": "The Verge",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://www.theverge.com/rss/index.xml",
+   "sites": [
+    "theverge.com"
+   ]
+  },
+  {
+   "id": "ars",
+   "name": "Ars Technica",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://feeds.arstechnica.com/arstechnica/index",
+   "sites": [
+    "arstechnica.com"
+   ]
+  },
+  {
+   "id": "engadget",
+   "name": "Engadget",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://www.engadget.com/rss.xml",
+   "sites": [
+    "engadget.com"
+   ]
+  },
+  {
+   "id": "techcrunch",
+   "name": "TechCrunch",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://techcrunch.com/feed/",
+   "sites": [
+    "techcrunch.com"
+   ]
+  },
+  {
+   "id": "wired",
+   "name": "Wired",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://www.wired.com/feed/rss",
+   "sites": [
+    "wired.com"
+   ]
+  },
+  {
+   "id": "register",
+   "name": "The Register",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://www.theregister.com/headlines.atom",
+   "sites": [
+    "theregister.com"
+   ]
+  },
+  {
+   "id": "cnet",
+   "name": "CNET",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://www.cnet.com/rss/news/",
+   "sites": [
+    "cnet.com"
+   ]
+  },
+  {
+   "id": "toms",
+   "name": "Tom's Hardware",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://www.tomshardware.com/feeds/all",
+   "sites": [
+    "tomshardware.com"
+   ]
+  },
+  {
+   "id": "macrumors",
+   "name": "MacRumors",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://feeds.macrumors.com/MacRumors-All",
+   "sites": [
+    "macrumors.com"
+   ]
+  },
+  {
+   "id": "9to5mac",
+   "name": "9to5Mac",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://9to5mac.com/feed/",
+   "sites": [
+    "9to5mac.com"
+   ]
+  },
+  {
+   "id": "9to5google",
+   "name": "9to5Google",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://9to5google.com/feed/",
+   "sites": [
+    "9to5google.com"
+   ]
+  },
+  {
+   "id": "androidauth",
+   "name": "Android Authority",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://www.androidauthority.com/feed/",
+   "sites": [
+    "androidauthority.com"
+   ]
+  },
+  {
+   "id": "xda",
+   "name": "XDA",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://www.xda-developers.com/feed/",
+   "sites": [
+    "xda-developers.com"
+   ]
+  },
+  {
+   "id": "hn",
+   "name": "Hacker News",
+   "lang": "en",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://hnrss.org/frontpage",
+   "sites": []
+  },
+  {
+   "id": "ithome",
+   "name": "IT之家 ITHome",
+   "lang": "zh",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://www.ithome.com/rss/",
+   "sites": [
+    "ithome.com"
+   ]
+  },
+  {
+   "id": "sspai",
+   "name": "少数派 sspai",
+   "lang": "zh",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://sspai.com/feed",
+   "sites": [
+    "sspai.com"
+   ]
+  },
+  {
+   "id": "36kr",
+   "name": "36氪 36Kr",
+   "lang": "zh",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://36kr.com/feed",
+   "sites": [
+    "36kr.com"
+   ]
+  },
+  {
+   "id": "ifanr",
+   "name": "爱范儿 ifanr",
+   "lang": "zh",
+   "cat": "tech",
+   "kind": "rss",
+   "url": "https://www.ifanr.com/feed",
+   "sites": [
+    "ifanr.com"
+   ]
+  },
+  {
+   "id": "netease-tech",
+   "name": "网易科技 NetEase Tech",
+   "lang": "zh",
+   "cat": "tech",
+   "kind": "netease-list",
+   "channel": "T1348649580692",
+   "sites": [
+    "163.com"
+   ]
+  },
+  {
+   "id": "bili-tech",
+   "name": "哔哩哔哩 科技区 Bilibili Tech",
+   "lang": "zh",
+   "cat": "tech",
+   "kind": "bilibili-rank",
+   "rid": 188,
+   "sites": [
+    "bilibili.com"
+   ]
+  },
+  {
+   "id": "cnbc-top",
+   "name": "CNBC",
+   "lang": "en",
+   "cat": "economy",
+   "kind": "rss",
+   "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+   "sites": [
+    "cnbc.com"
+   ]
+  },
+  {
+   "id": "cnbc-economy",
+   "name": "CNBC Economy",
+   "lang": "en",
+   "cat": "economy",
+   "kind": "rss",
+   "url": "https://www.cnbc.com/id/20910258/device/rss/rss.html",
+   "sites": [
+    "cnbc.com"
+   ]
+  },
+  {
+   "id": "cnbc-finance",
+   "name": "CNBC Finance",
+   "lang": "en",
+   "cat": "economy",
+   "kind": "rss",
+   "url": "https://www.cnbc.com/id/10000664/device/rss/rss.html",
+   "sites": [
+    "cnbc.com"
+   ]
+  },
+  {
+   "id": "mw-top",
+   "name": "MarketWatch",
+   "lang": "en",
+   "cat": "economy",
+   "kind": "rss",
+   "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "sites": [
+    "marketwatch.com"
+   ]
+  },
+  {
+   "id": "mw-pulse",
+   "name": "MarketWatch Pulse",
+   "lang": "en",
+   "cat": "economy",
+   "kind": "rss",
+   "url": "https://feeds.content.dowjones.io/public/rss/mw_marketpulse",
+   "sites": [
+    "marketwatch.com"
+   ]
+  },
+  {
+   "id": "yahoo-fin",
+   "name": "Yahoo Finance",
+   "lang": "en",
+   "cat": "economy",
+   "kind": "rss",
+   "url": "https://finance.yahoo.com/news/rssindex",
+   "sites": [
+    "yahoo.com"
+   ]
+  },
+  {
+   "id": "bbc-business",
+   "name": "BBC Business",
+   "lang": "en",
+   "cat": "economy",
+   "kind": "rss",
+   "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+   "sites": [
+    "bbc.co.uk",
+    "bbc.com"
+   ]
+  },
+  {
+   "id": "guardian-business",
+   "name": "The Guardian Business",
+   "lang": "en",
+   "cat": "economy",
+   "kind": "rss",
+   "url": "https://www.theguardian.com/business/rss",
+   "sites": [
+    "theguardian.com"
+   ]
+  },
+  {
+   "id": "guardian-econ",
+   "name": "The Guardian Economics",
+   "lang": "en",
+   "cat": "economy",
+   "kind": "rss",
+   "url": "https://www.theguardian.com/business/economics/rss",
+   "sites": [
+    "theguardian.com"
+   ]
+  },
+  {
+   "id": "economist",
+   "name": "The Economist",
+   "lang": "en",
+   "cat": "economy",
+   "kind": "rss",
+   "url": "https://www.economist.com/finance-and-economics/rss.xml",
+   "sites": [
+    "economist.com"
+   ]
+  },
+  {
+   "id": "netease-money",
+   "name": "网易财经 NetEase Finance",
+   "lang": "zh",
+   "cat": "economy",
+   "kind": "netease-list",
+   "channel": "T1348648756099",
+   "sites": [
+    "163.com"
+   ]
+  },
+  {
+   "id": "yt-playstation",
+   "name": "PlayStation",
+   "lang": "en",
+   "cat": "games",
+   "kind": "youtube",
+   "handle": "PlayStation",
+   "games": [],
+   "sites": [
+    "youtube.com"
+   ],
+   "channelId": "UC-2Y8dQb0S6DtpxNgAKoJKA"
+  },
+  {
+   "id": "yt-xbox",
+   "name": "Xbox",
+   "lang": "en",
+   "cat": "games",
+   "kind": "youtube",
+   "handle": "Xbox",
+   "games": [],
+   "sites": [
+    "youtube.com"
+   ],
+   "channelId": "UCjBp_7RuDBUYbd1LegWEJ8g"
+  },
+  {
+   "id": "yt-nintendo",
+   "name": "Nintendo of America",
+   "lang": "en",
+   "cat": "games",
+   "kind": "youtube",
+   "handle": "NintendoAmerica",
+   "games": [],
+   "sites": [
+    "youtube.com"
+   ],
+   "channelId": "UCGIY_O-8vW4rfX98KlMkvRg"
+  },
+  {
+   "id": "yt-genshin",
+   "name": "Genshin Impact",
+   "lang": "en",
+   "cat": "games",
+   "kind": "youtube",
+   "handle": "GenshinImpact",
+   "games": [
+    "genshin"
+   ],
+   "sites": [
+    "youtube.com"
+   ],
+   "channelId": "UCiS882YPwZt1NfaM0gR0D9Q"
+  },
+  {
+   "id": "yt-hsr",
+   "name": "Honkai: Star Rail",
+   "lang": "en",
+   "cat": "games",
+   "kind": "youtube",
+   "handle": "HonkaiStarRail",
+   "games": [
+    "hsr"
+   ],
+   "sites": [
+    "youtube.com"
+   ],
+   "channelId": "UC2PeMPA8PAOp-bynLoCeMLA"
+  },
+  {
+   "id": "yt-wuwa",
+   "name": "Wuthering Waves",
+   "lang": "en",
+   "cat": "games",
+   "kind": "youtube",
+   "handle": "wutheringwaves",
+   "games": [
+    "wuwa"
+   ],
+   "sites": [
+    "youtube.com"
+   ]
+  },
+  {
+   "id": "yt-zzz",
+   "name": "Zenless Zone Zero",
+   "lang": "en",
+   "cat": "games",
+   "kind": "youtube",
+   "handle": "ZZZ_Official",
+   "games": [
+    "zzz"
+   ],
+   "sites": [
+    "youtube.com"
+   ]
+  },
+  {
+   "id": "yt-rockstar",
+   "name": "Rockstar Games",
+   "lang": "en",
+   "cat": "games",
+   "kind": "youtube",
+   "handle": "RockstarGames",
+   "games": [
+    "gta6"
+   ],
+   "sites": [
+    "youtube.com"
+   ]
+  },
+  {
+   "id": "yt-minecraft",
+   "name": "Minecraft",
+   "lang": "en",
+   "cat": "games",
+   "kind": "youtube",
+   "handle": "minecraft",
+   "games": [
+    "minecraft"
+   ],
+   "sites": [
+    "youtube.com"
+   ]
+  },
+  {
+   "id": "yt-fortnite",
+   "name": "Fortnite",
+   "lang": "en",
+   "cat": "games",
+   "kind": "youtube",
+   "handle": "Fortnite",
+   "games": [],
+   "sites": [
+    "youtube.com"
+   ]
+  },
+  {
+   "id": "bili-genshin",
+   "name": "原神 Genshin (Bilibili)",
+   "lang": "zh",
+   "cat": "games",
+   "kind": "bilibili-user",
+   "uid": 401742377,
+   "games": [
+    "genshin"
+   ],
+   "sites": [
+    "bilibili.com"
+   ]
+  },
+  {
+   "id": "bili-hsr",
+   "name": "崩坏：星穹铁道 Star Rail (Bilibili)",
+   "lang": "zh",
+   "cat": "games",
+   "kind": "bilibili-user",
+   "uid": 1340190821,
+   "games": [
+    "hsr"
+   ],
+   "sites": [
+    "bilibili.com"
+   ]
+  },
+  {
+   "id": "bili-zzz",
+   "name": "绝区零 Zenless (Bilibili)",
+   "lang": "zh",
+   "cat": "games",
+   "kind": "bilibili-user",
+   "uid": 1636034895,
+   "games": [
+    "zzz"
+   ],
+   "sites": [
+    "bilibili.com"
+   ]
+  },
+  {
+   "id": "bili-wuwa",
+   "name": "鸣潮 Wuthering Waves (Bilibili)",
+   "lang": "zh",
+   "cat": "games",
+   "kind": "bilibili-user",
+   "uid": 1955897084,
+   "games": [
+    "wuwa"
+   ],
+   "sites": [
+    "bilibili.com"
+   ]
+  },
+  {
+   "id": "bili-games",
+   "name": "哔哩哔哩 游戏区 Bilibili Games",
+   "lang": "zh",
+   "cat": "games",
+   "kind": "bilibili-rank",
+   "rid": 4,
+   "sites": [
+    "bilibili.com"
+   ]
+  }
+ ],
+ "games": [
+  {
+   "id": "genshin",
+   "name": "Genshin Impact",
+   "dev": "HoYoverse",
+   "keywords": [
+    "genshin",
+    "原神"
+   ],
+   "version": "7.1",
+   "vname": "A Rekviem for the Underworld",
+   "released": "2026-09-23",
+   "next": {
+    "label": "Version 7.2",
+    "date": "2026-11-04"
+   },
+   "banners": [
+    {
+     "name": "Vesna and Vodyanitsa (new)",
+     "start": "2026-09-23",
+     "end": "2026-10-13"
+    },
+    {
+     "name": "Skirk and Escoffier (reruns)",
+     "start": "2026-10-13",
+     "end": "2026-11-03"
+    }
+   ]
+  },
+  {
+   "id": "hsr",
+   "name": "Honkai: Star Rail",
+   "dev": "HoYoverse",
+   "keywords": [
+    "star rail",
+    "honkai: star rail",
+    "hsr",
+    "星穹铁道",
+    "崩铁"
+   ],
+   "version": "4.6",
+   "vname": "Dance With the Beast Before Moonrise",
+   "released": "2026-09-28",
+   "next": {
+    "label": "Phase 2: Mortenax Blade rerun",
+    "date": "2026-10-21"
+   },
+   "banners": [
+    {
+     "name": "Pearl (new)",
+     "start": "2026-09-28",
+     "end": "2026-11-10"
+    },
+    {
+     "name": "Evanescia (rerun)",
+     "start": "2026-09-28",
+     "end": "2026-10-21"
+    }
+   ]
+  },
+  {
+   "id": "wuwa",
+   "name": "Wuthering Waves",
+   "dev": "Kuro Games",
+   "keywords": [
+    "wuthering waves",
+    "wuwa",
+    "鸣潮"
+   ],
+   "version": "3.7",
+   "vname": "Prism's Illusion, Heart's Illumination",
+   "released": "2026-09-30",
+   "next": {
+    "label": "Phase 2: Suoming",
+    "date": "2026-10-22"
+   },
+   "banners": [
+    {
+     "name": "Hsin (new), Chisa, Iuno",
+     "start": "2026-09-30",
+     "end": "2026-10-22"
+    },
+    {
+     "name": "Suoming (new), Lynae, Lucilla",
+     "start": "2026-10-22",
+     "end": "2026-11-11"
+    }
+   ]
+  },
+  {
+   "id": "zzz",
+   "name": "Zenless Zone Zero",
+   "dev": "HoYoverse",
+   "keywords": [
+    "zenless",
+    "zzz",
+    "绝区零"
+   ],
+   "version": "3.2",
+   "vname": "Their Secret Histories",
+   "released": "2026-09-09",
+   "next": {
+    "label": "Version 3.3 (expected)",
+    "date": "2026-10-21"
+   },
+   "banners": [
+    {
+     "name": "Roxy (new)",
+     "start": "2026-09-30",
+     "end": "2026-10-20"
+    },
+    {
+     "name": "Promeia (rerun)",
+     "start": "2026-09-30",
+     "end": "2026-10-20"
+    }
+   ]
+  },
+  {
+   "id": "gta6",
+   "name": "Grand Theft Auto VI",
+   "dev": "Rockstar Games",
+   "keywords": [
+    "gta 6",
+    "gta vi",
+    "grand theft auto vi",
+    "grand theft auto 6",
+    "gta6",
+    "侠盗猎车手6"
+   ],
+   "version": "Pre-launch",
+   "vname": "Leonida, six regions, twice GTA 5's size",
+   "released": null,
+   "next": {
+    "label": "Launch on PS5 and Xbox Series X|S",
+    "date": "2026-11-19"
+   },
+   "banners": []
+  },
+  {
+   "id": "minecraft",
+   "name": "Minecraft",
+   "dev": "Mojang",
+   "keywords": [
+    "minecraft",
+    "我的世界"
+   ],
+   "version": "The Sift",
+   "vname": "First new dimension in 15 years",
+   "released": null,
+   "next": {
+    "label": "The Sift reaches Java and Bedrock",
+    "date": "2027"
+   },
+   "banners": []
+  }
+ ],
+ "markets": [
+  {
+   "symbol": "^GSPC",
+   "name": "S&P 500",
+   "group": "Stocks"
+  },
+  {
+   "symbol": "^IXIC",
+   "name": "Nasdaq",
+   "group": "Stocks"
+  },
+  {
+   "symbol": "^DJI",
+   "name": "Dow Jones",
+   "group": "Stocks"
+  },
+  {
+   "symbol": "^FTSE",
+   "name": "FTSE 100",
+   "group": "Stocks"
+  },
+  {
+   "symbol": "^STOXX50E",
+   "name": "Euro Stoxx 50",
+   "group": "Stocks"
+  },
+  {
+   "symbol": "^N225",
+   "name": "Nikkei 225",
+   "group": "Stocks"
+  },
+  {
+   "symbol": "^HSI",
+   "name": "Hang Seng",
+   "group": "Stocks"
+  },
+  {
+   "symbol": "000001.SS",
+   "name": "Shanghai Composite",
+   "group": "Stocks"
+  },
+  {
+   "symbol": "^TNX",
+   "name": "US 10-year yield",
+   "group": "Rates"
+  },
+  {
+   "symbol": "GC=F",
+   "name": "Gold",
+   "group": "Commodities"
+  },
+  {
+   "symbol": "CL=F",
+   "name": "Crude oil (WTI)",
+   "group": "Commodities"
+  },
+  {
+   "symbol": "GBPUSD=X",
+   "name": "GBP/USD",
+   "group": "Currencies"
+  },
+  {
+   "symbol": "CNY=X",
+   "name": "USD/CNY",
+   "group": "Currencies"
+  },
+  {
+   "symbol": "BTC-USD",
+   "name": "Bitcoin",
+   "group": "Crypto"
+  }
+ ]
+}

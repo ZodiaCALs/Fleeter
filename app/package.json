@@ -1,0 +1,17 @@
+{
+  "name": "fleeter-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build:mac": "tauri build",
+    "android:init": "tauri android init && node scripts/android-icons.mjs",
+    "android:dev": "tauri android dev",
+    "android:build": "tauri android build --apk --debug"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs>
+    <linearGradient id="icBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1D4ED8"/><stop offset=".55" stop-color="#0B2A7A"/><stop offset="1" stop-color="#061340"/></linearGradient>
+    <radialGradient id="icGlow" cx=".28" cy=".18" r=".85"><stop offset="0" stop-color="#9CC3FF" stop-opacity=".75"/><stop offset=".5" stop-color="#9CC3FF" stop-opacity=".08"/><stop offset="1" stop-color="#9CC3FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="icDeep" cx=".8" cy=".85" r=".6"><stop offset="0" stop-color="#38BDF8" stop-opacity=".55"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="icRim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DCEBFF" stop-opacity=".95"/><stop offset=".45" stop-color="#DCEBFF" stop-opacity=".12"/><stop offset="1" stop-color="#7DD3FC" stop-opacity=".55"/></linearGradient>
+    <linearGradient id="icWing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#BFDBFE"/></linearGradient>
+  </defs>
+        <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#icBody)"/>
+        <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#icDeep)"/>
+        <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#icGlow)"/>
+        <path d="M14 41c10-2 19-11 37-23-5 11-12 21-24 26-5 2-10 1-13-3z" fill="url(#icWing)"/>
+        <path d="M21 31c6-1 12-5 20-10-3 5-7 9-13 11-3 1-5 1-7-1z" fill="#E0EDFF" opacity=".5"/>
+        <circle cx="45" cy="44" r="4.5" fill="#7DD3FC" opacity=".9"/>
+        <ellipse cx="24" cy="11.5" rx="15" ry="4.5" fill="#fff" opacity=".28"/>
+        <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="17.25" fill="none" stroke="url(#icRim)" stroke-width="1.5"/>
+      </svg>

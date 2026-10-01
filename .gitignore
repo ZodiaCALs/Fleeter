@@ -1,0 +1,7 @@
+node_modules/
+.wrangler/
+.dev.vars
+.DS_Store
+app/node_modules/
+app/src-tauri/target/
+app/src-tauri/gen/
